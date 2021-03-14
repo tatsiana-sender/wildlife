@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="assets/styles/normalize.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+   <title>Wildlife</title>
+</head>
+<body>
+    <header><a name="home"></a>
+        <div class="container d-flex justify-between align-center">
+            <a href="#home"class="logo">
+              <img src="assets/images/logo.svg" alt="Logotype">
+              Wildlife
+            </a>
+            <ul class="menu">
+                <li><a class="active" href="#blog">Blog</a></li>
+                <li><a href="#subscribe">Contacts</a></li>
+                <li><button class="search"></button></li>
+                <li><a href="#" class="btn">Sign in</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+          <div class="container">
+              <div class="hero__content">
+                <h1>Survival</h1>
+                <p>What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+                <a href="#" class="btn btn-solid">Donate</a>
+              </div>
+          </div>
+        </div>
+
+        <section><a name="blog"></a>
+            <div class="container">
+                <div class="blog__header">
+                  <h2>Latest articles</h2>
+                  <p>Breaking news from the wild</p>
+                </div>
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="assets/images/deer.png" alt="Deer">
+                    <h4 class="slider__title">Deer</h4>
+                    <p class="slider__text">Naturalist investigation</p>
+                  </div>
+                  <div class="slider__item">
+                    <img src="assets/images/squirrel.png" alt="Squirrel">
+                    <h4 class="slider__title">Squirrel</h4>
+                    <p class="slider__text">Kamikaze squirrels</p>
+                  </div>
+                  <div class="slider__item">
+                    <img src="assets/images/bird.png" alt="Bird">
+                    <h4 class="slider__title">Bird</h4>
+                    <p class="slider__text">Birds Fight club</p>
+                  </div>
+                  <button class="slider__button prev"></button>
+                  <button class="slider__button next"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe"><a name="subscribe"></a>
+            <div class="container">
+                <h3>
+                    Get notified about new amazing articles
+                </h3>
+                <form class="subscribe__form" action="index.html" method="post">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="submit" name="button" class="btn btn-solid" value="Send" />
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container d-flex justify-between">
+            <a href="#home" class="logo">
+              <img src="assets/images/logo.svg" alt="Logotype">
+              Wildlife
+            </a>
+            <ul class="footer__menu">
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Learn more</a></li>
+            </ul>
+            <ul class="footer__socials">
+                <li class="facebook"><a href="#"></a></li>
+                <li class="instagram"><a href="#"></a></li>
+                <li class="pinterest"><a href="#"></a></li>
+                <li class="telegram"><a href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
