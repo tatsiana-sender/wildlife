@@ -4,6 +4,16 @@ body {
   background: #ccc;
 }
 
+* {
+  outline: none;
+}
+
+a, 
+button {
+  cursor: pointer;
+  transition: .3s;
+}
+
 .d-flex {
   display: flex;
 }
@@ -45,11 +55,13 @@ body {
 
 .btn-solid:hover {
   background: #E39128;
+  border: 1px solid #E39128;
 }
 
 .btn-solid:active,
 .btn:active {
   background: #8F5613;
+  border: 1px solid #8F5613;
 }
 
 a {
@@ -63,6 +75,12 @@ a:hover,
 a:focus,
 a:active {
   color: #CD6326;
+}
+
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  color: #f7f7f7;
 }
 
 ul {
@@ -115,7 +133,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   height: 779px;
-  background: url('assets/images/hero.png');
+  background: url('assets/images/hero.png') center / cover no-repeat;
 }
 
 .hero__content {
@@ -291,6 +309,11 @@ footer {
   margin-left: 0;
 }
 
+.footer__socials li:hover {
+  filter:drop-shadow();
+}
+
+
 .facebook {
   background-image: url('assets/images/fb.svg');
 }
@@ -305,4 +328,10 @@ footer {
 
 .telegram {
   background-image: url('assets/images/telegram.svg');
+}
+
+.footer__socials a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
