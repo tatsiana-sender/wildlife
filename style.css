@@ -266,7 +266,7 @@ section p {
 
 footer {
   padding: 150px 0;
-  background: url('assets/images/footer.png');
+  background: url('assets/images/footer.png') center / cover no-repeat;
 }
 
 .footer__menu li {
